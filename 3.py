@@ -26,6 +26,3 @@ def traverse(right, down, lines):
 
 
     return trees
-
-
-print(traverse(3,1,lines))

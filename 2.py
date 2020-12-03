@@ -20,10 +20,3 @@ for i in range(len(rules)):
 
     if (pws[i][lower-1] == rules[i][1] and not pws[i][upper-1] == rules[i][1]) or (pws[i][upper-1] == rules[i][1] and not pws[i][lower-1] == rules[i][1]):
         cnt2+=1
-        print(pws[i])
-        print(rules[i])
-        print(lower)
-        print(upper)
-
-
-print(cnt2)

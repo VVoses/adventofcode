@@ -13,7 +13,4 @@ for i in range(len(list)):
             print(list[i] * list[k])
         for k in range(j+1, len(list)):
             if list[i] + list[j] + list[k] == 2020:
-                print(list[i])
-                print(list[j])
-                print(list[k])
                 print(list[i] * list[j] * list[k])
